@@ -4,7 +4,7 @@ const apiKey = `e56bf621b4fa8f4143caaee9fff0f2b4`; // Replace with your OpenWeat
 function getWeather() {
     const city = document.getElementById('city-input').value;
     if (!city) {
-        alert('Please enter a place name.');
+        alert('Please enter a city name.');
         return;
     }
 
